@@ -22,13 +22,13 @@ class ClassNames {
 	/**
 	 * Constructor
 	 *
-	 * @see  ClassNames::add
-	 * @uses ClassNames::add
+	 * @see  ClassNames::parse
+	 * @uses ClassNames::parse
 	 *
 	 * @param mixed ...$args String or array of classNames.
 	 */
 	public function __construct( ...$args ) {
-		$this->add( ...$args );
+		$this->parse( $args );
 	}
 
 	/**
