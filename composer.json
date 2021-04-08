@@ -1,0 +1,31 @@
+{
+	"name": "micropackage/classnames",
+	"version": "1.0.0",
+	"description": "Simple PHP utility class for conditionally joining class names together.",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+    {
+      "name": "Wojtek Szałkiewicz",
+      "email": "wojtek@szalkiewicz.pl"
+    }
+	],
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf",
+		"test": "phpunit --testdox"
+	},
+	"require": {
+		"php": ">=7.0"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+		"phpcompatibility/php-compatibility": "^9.1",
+		"wp-coding-standards/wpcs": "^2.0",
+		"phpunit/phpunit": "^9.5"
+	},
+	"autoload": {
+		"psr-4" : {
+			"Micropackage\\ClassNames\\" : "src"
+		}
+	}
+}
