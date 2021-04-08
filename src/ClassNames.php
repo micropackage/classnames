@@ -92,7 +92,7 @@ class ClassNames {
 			if ( is_int( $key ) && is_string( $value ) ) {
 				$classToAdd = $value;
 			} elseif ( is_string( $key ) ) {
-				if ( true === (bool) $value ) {
+				if ( (bool) $value ) {
 					$classToAdd = $key;
 				} else {
 					$this->remove( $key );
