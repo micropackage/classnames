@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Thu Apr 8 11:13:13 UTC 2021" phpunit="9.5.4" coverage="9.2.6">
+    <runtime name="PHP" version="7.3.10" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="3.0.3"/>
+  </build>
+  <project source="P:\www\BracketSpace\micropackage\classnames\src">
+    <tests>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanRemoveClassname" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanBeUsedAsString" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanParseClassNames" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanCreateClassnameString" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testReturnsEmptyStringIfConditionsFail" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanCreateClassAttributeString" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanCreateClassAttributeStringWithPrefixAndAppendix" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testReturnsEmptyAttributeStringIfNoArguments" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanGetClassnameString" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanCreateInstance" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testReturnsEmptyStringIfNoArguments" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanGetClassAttributeString" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanPrintClassAttributeString" size="unknown" result="0" status="PASSED"/>
+      <test name="Micropackage\ClassNames\Tests\ClassNamesTest::testCanPrintClassnameString" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="214" comments="90" code="124" executable="52" executed="52" percent="100.00"/>
+        <methods count="11" tested="11" percent="100.00"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="1" tested="1" percent="100.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <file name="ClassNames.php" href="ClassNames.php.xml">
+        <totals>
+          <lines total="214" comments="90" code="124" executable="52" executed="52" percent="100.00"/>
+          <methods count="11" tested="11" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="1" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

@@ -1,0 +1,12 @@
+
+
+Code Coverage Report:     
+  2021-04-08 11:13:13     
+                          
+ Summary:                 
+  Classes: 100.00% (1/1)  
+  Methods: 100.00% (11/11)
+  Lines:   100.00% (52/52)
+
+Micropackage\ClassNames\ClassNames
+  Methods: 100.00% (11/11)   Lines: 100.00% ( 52/ 52)
