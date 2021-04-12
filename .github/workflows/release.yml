@@ -9,7 +9,7 @@ on:
 
 jobs:
   release:
-    name: Release
+    name: "Release ${{ github.event.inputs.new_version }}"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
