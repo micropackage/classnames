@@ -25,11 +25,6 @@ jobs:
     - name: Install dependencies
       run: composer install --no-progress
     - name: Test the code
-      run: composer test
-    - name: Read coverage.txt
-      id: package
-      uses: juliangruber/read-file-action@v1
-      with:
-        path: ./test-coverage/coverage.txt
-    - name: Echo coverage.txt
-      run: echo ${{ steps.package.outputs.content }}
+      run: |
+        composer test
+        cat ./test-coverage/coverage.txt
