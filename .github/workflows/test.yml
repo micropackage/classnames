@@ -30,6 +30,6 @@ jobs:
       id: package
       uses: juliangruber/read-file-action@v1
       with:
-        path: ./text-coverage/coverage.txt
+        path: ./test-coverage/coverage.txt
     - name: Echo coverage.txt
       run: echo ${{ steps.package.outputs.content }}
