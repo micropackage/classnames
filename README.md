@@ -33,6 +33,32 @@ new ClassNames( 'foo', [ 'foo' => false ] ); // => ''
 new ClassNames( [ 'foo', 'bar' => false, 'baz' ] ); // => 'foo baz'
 ```
 
+### Full example
+
+```php
+<?php
+/**
+ * Example WordPress template using ACF
+ */
+
+use Micropackage\ClassNames\ClassNames;
+
+$text_color = get_filed( 'text-color' );
+
+$classnames = new ClassNames(
+	'main-hero',
+	[
+		'has-background'          => get_filed( 'has-background' ), // Conditionally add background class
+		"has-{$text_color}-color" => $text_color, // Only add color class if color is not null
+	]
+);
+?>
+
+<div class="<?php echo $classnames; ?>">
+	<!-- (...) -->
+</div>
+```
+
 ### Methods
 
 #### `add`
